@@ -2,6 +2,8 @@ package stepdefinition;
 
 import amazonProducts.AppleProduct;
 import amazonProducts.SearchProduct;
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.BeforeStep;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -41,9 +43,47 @@ public class SearchStep {
 		
 	}
 
+	@Then("order id {int} and username is {string}")
+	public void order_id_and_username_is(Integer int1, String string) {
+
+
+	}
+
+
+	@Given("I have search field on Amazon Page")
+	public void i_have_search_field_on_amazon_page() {
+
+
+	}
 	
+	@When("I search for a product with name {string} and price with {int}")
+	public void i_search_for_a_product_with_name_and_price_with(String string, Integer int1) {
+
+
+	}
+
+	@Then("Product Name {string} should be displayed")
+	public void product_name_should_be_displayed(String string) {
+
+
+	}
+
+	@Then("order with the id {int} and username is {string}")
+	public void order_with_the_id_and_username_is(Integer int1, String string) {
+
+
+	}
 
 	
 	
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
