@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.191">
+<testcase classname="Google Search" name="Google main searching Page ui" time="0.069">
+<system-out><![CDATA[Given user on google page...................................................passed
+When particular user search a country with the name "USA" and population "331M".passed
+Then Country with the name should be displayed ON google....................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -37,6 +37,21 @@ public class GoogleSearchSteps {
 		System.out.println("nameOfTheCountry " +nameOfTheCountry);
 		
 	}
+	
+	@Given("user on google page")
+	public void user_on_google_page() {
+	    System.out.println("user on google page");
+	}
+
+	@When("particular user search a country with the name {string} and population {string}")
+	public void particular_user_search_a_country_with_the_name_and_population(String USA, String POPULATION) {
+	  System.out.println("user search a country with the name " + USA + "and population "+ POPULATION);
+	}
+
+	@Then("Country with the name should be displayed ON google")
+	public void country_with_the_name_should_be_displayed_on_google() {
+	   System.out.println("Country with the name should be displayed ON google");
+	}
 
 
 }

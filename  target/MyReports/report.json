@@ -1,0 +1,91 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-25T21:40:00.511Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "user-resgitration-for-getting-education;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on registartion Page",
+            "match": {
+              "location": "stepdefinition.registartionsSteps.user_on_registartion_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters following regsitartion details",
+            "match": {
+              "location": "stepdefinition.registartionsSteps.user_enters_following_regsitartion_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Jeyhun",
+                  "Aliyev",
+                  "Ali-ceyhun@list.ru",
+                  "NewYork"
+                ]
+              },
+              {
+                "cells": [
+                  "John",
+                  "jerry",
+                  "john@gmail.com",
+                  "California"
+                ]
+              },
+              {
+                "cells": [
+                  "emiliyta",
+                  "Aliyeva",
+                  "Emiliya@list.ru",
+                  "Brooklyn"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user successfully registered",
+            "match": {
+              "location": "stepdefinition.registartionsSteps.user_successfully_registered()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "user resgitration for getting education",
+    "description": "",
+    "id": "user-resgitration-for-getting-education",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/registrations.feature",
+    "tags": []
+  }
+]
