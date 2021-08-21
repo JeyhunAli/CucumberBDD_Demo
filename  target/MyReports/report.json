@@ -3,8 +3,8 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-25T21:40:00.511Z",
-        "line": 4,
+        "start_timestamp": "2021-03-05T04:28:14.820Z",
+        "line": 12,
         "name": "",
         "description": "",
         "id": "user-resgitration-for-getting-education;",
@@ -13,10 +13,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 13,
             "name": "User on registartion Page",
             "match": {
               "location": "stepdefinition.registartionsSteps.user_on_registartion_page()"
@@ -28,7 +28,7 @@
               "duration": 1000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 14,
             "name": "User enters following regsitartion details",
             "match": {
               "location": "stepdefinition.registartionsSteps.user_enters_following_regsitartion_details(io.cucumber.datatable.DataTable)"
@@ -52,7 +52,7 @@
               },
               {
                 "cells": [
-                  "emiliyta",
+                  "Emiliya",
                   "Aliyeva",
                   "Emiliya@list.ru",
                   "Brooklyn"
@@ -63,10 +63,9 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 18,
             "name": "user successfully registered",
             "match": {
               "location": "stepdefinition.registartionsSteps.user_successfully_registered()"
@@ -77,6 +76,90 @@
         "tags": [
           {
             "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T04:28:14.898Z",
+        "line": 22,
+        "name": "",
+        "description": "",
+        "id": "user-resgitration-for-getting-education;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User on registartion Page",
+            "match": {
+              "location": "stepdefinition.registartionsSteps.user_on_registartion_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters following regsitartion details to the specific coulumns",
+            "match": {
+              "location": "stepdefinition.registartionsSteps.user_enters_following_regsitartion_details_to_the_specific_coulumns(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "LastName",
+                  "Email",
+                  "City"
+                ]
+              },
+              {
+                "cells": [
+                  "Jeyhun",
+                  "Aliyev",
+                  "Ali-ceyhun@list.ru",
+                  "NewYork"
+                ]
+              },
+              {
+                "cells": [
+                  "John",
+                  "jerry",
+                  "john@gmail.com",
+                  "California"
+                ]
+              },
+              {
+                "cells": [
+                  "Emiliya",
+                  "Aliyeva",
+                  "Emiliya@list.ru",
+                  "Brooklyn"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user successfully registered",
+            "match": {
+              "location": "stepdefinition.registartionsSteps.user_successfully_registered()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
           }
         ]
       }
