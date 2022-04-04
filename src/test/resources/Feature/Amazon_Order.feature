@@ -28,7 +28,7 @@ Feature: Amazon home page as registered
     
    #this is the example of Background keyword so if we dont use Background keyword this how it will look like each and every time we have to define 
    #steps of the do login enter usrname pssword click login button then navigate order page 
-   #instead of repeating again again we are writing once under Background keyword thats it 
+   #instead of repeating again and again we are writing once under Background keyword thats it 
 
   #Scenario: Check previous Digital Orders details
     #Given registered amazon account owner exists

@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features = "src/test/resources/Feature/registrations.feature",
 		glue = {"stepdefinition"},        // "myHooks"
-		tags = "@smoke",
+		tags = "@smoke or @sanity",
 		plugin = {"pretty",
 				     "json: target/MyReports/report.json",
 				"junit: target/MyReports/report.xml"

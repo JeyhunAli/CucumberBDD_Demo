@@ -17,7 +17,9 @@ import io.cucumber.junit.CucumberOptions;
 
 public class AmazonSearchTest {
 
-	//make sure u have proper class name 
+	//make sure u have proper class name not same name with package or class 
+	// name 
 	// while executing from mvn it will provide proper output
+	
 	
 }

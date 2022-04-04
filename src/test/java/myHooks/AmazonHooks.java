@@ -14,6 +14,7 @@ public class AmazonHooks {
 	public void setUp_browser(Scenario sc) {
 		
 		System.out.println("Lounch the browser");
+		//here passing Scenario object with the ref name to get info of the scenario
 		System.out.println("ScenarioName "+sc.getName());
 		System.out.println("ScenarioStatus "+sc.getStatus());
 		System.out.println("ScenarioId "+sc.getId());
